@@ -8,4 +8,4 @@ li.py-4
       p.text-sm.text-gray-500.truncate
         | @gorbypuff
     div
-      = button("View", "https://twitter.com/gorbypuff")
+      = render partial: "button", locals: { content: "View", path: "https://twitter.com/gorbypuff" }
