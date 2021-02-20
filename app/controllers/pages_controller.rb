@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def nested_test
   end
+
+  def method_test
+  end
 end
