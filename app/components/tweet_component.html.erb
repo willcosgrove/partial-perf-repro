@@ -1,0 +1,21 @@
+<li class="py-4 tweet-<%= @tweet %>">
+  <div class="flex items-center space-x-4">
+    <div class="flex-shrink-0">
+      <img class="h-8 w-8 rounded-full" alt="" src="https://pbs.twimg.com/profile_images/2031425739/a180e7c27d0a11e18bb812313804a181_7_400x400.jpg">
+    </div>
+
+    <div class="flex-1 min-w-0">
+      <p class="text-sm font-medium text-gray-900 truncate">
+        Gorby Thunderhorse
+      </p>
+
+      <p class="text-sm text-gray-500 truncate">
+        @gorbypuff
+      </p>
+    </div>
+
+    <div>
+      <%= render ButtonComponent.new(text: "View", path: "https://twitter.com/gorbypuff") %>
+    </div>
+  </div>
+</li>
